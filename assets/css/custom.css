@@ -1,0 +1,133 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #f7f7f7;
+}
+.welcome-wrapper h1{
+    font-size:45px;
+    font-weight:bold;
+    color:#fe5000;
+}
+.welcome-wrapper h2{
+    color: #fe5000;
+    font-size:45px;
+    letter-spacing: -2px;
+}
+.sep-wrapper
+{
+	padding-bottom: 10px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 10px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: relative;
+	top: 0;
+	
+	width: 60%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(254, 80, 0), transparent);
+    margin: 0 auto;
+    display: flex; // make us of Flexbox
+  align-items: center; // does vertically center the desired content
+  justify-content: center; // horizontally centers single line items
+  text-align: center; // optional, but helps horizontally center text that breaks into multiple lines
+}
+.teammates-wrapper{
+    border-radius:100%;
+   
+}
+.teammates-pic{
+    
+    text-align: center;
+}
+.teammates-wrapper img{
+    border-radius:100%;
+    width:280px;
+    height:280px;
+    border: 10px solid #7a7a7a;
+}
+.teammates-bio{
+    
+    text-align: center;
+}
+.teammates-bio h3{
+    
+    text-align: center;
+    font-size: 35px;
+    color:#bddc04;
+    font-weight: bold;
+}
+.teammates-bio p{
+    font-size:22px;
+    text-align: center;
+}
+.user-group-icn .fa{
+    font-size:200px; 
+    color:#bddc04;
+}
+.what-next-wrapper{
+    border-left: 2px solid #bddc04;
+    padding: 0 0 0 20px;
+}
+.what-next-wrapper h2{
+    font-size:55px;
+    color: #bddc04;
+    font-weight:bold;
+}
+.what-next-wrapper ul{
+    margin: 0;
+    padding: 0 0 0 27px;
+}
+.what-next-wrapper ul li{
+    margin: 0;
+    padding: 0;
+    list-style-type: disc;
+    font-size: 28px;
+    color: #606060;
+    font-weight: bold;
+ }
+ .btn-tick{
+     background: #f64e01;
+     border: 1px solid #f64e01;
+ }
+ .back-btn{
+    text-align: center;
+    color: #343434;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ .back-btn span{
+    border: 3px solid #606060;
+    padding: 12px 17px;
+    border-radius: 6px;
+    color: #606060;
+    display: block;
+ }
+ @media (max-width: 575.98px) { 
+     
+    .what-next-wrapper{
+        border-left: 0px solid #bddc04;
+        padding: 0 0 0 20px;
+        margin: 26px 0 0 0;
+        text-align: left;
+    }
+    .what-next-wrapper h2 {
+        font-size: 36px;
+       
+    }
+    .what-next-wrapper ul li {
+        font-size: 21px;
+    }
+    .welcome-wrapper h2 {
+        font-size: 34px;
+    }
+ }
